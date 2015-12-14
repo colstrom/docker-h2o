@@ -8,7 +8,9 @@ An optimized HTTP/1, HTTP/2 server written in C
 
 ## Volumes
 
-* `/srv/`
+| Path   | Description
+|--------|-------------
+| `/srv` | Serve content from this location
 
 ## License
 
