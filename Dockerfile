@@ -1,6 +1,6 @@
-FROM colstrom/alpine:testing
+FROM colstrom/alpine
 
-RUN apk-install h2o \
+RUN apk-install h2o@testing \
   && mkdir /srv
 
 ADD h2o.conf /etc/h2o/
