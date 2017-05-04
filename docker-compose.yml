@@ -1,0 +1,9 @@
+code:
+  image: contains/grafana
+  entrypoint: tail -f /dev/null
+server:
+  image: contains/h2o
+  volumes_from:
+    - code
+  ports:
+    - 80
